@@ -108,9 +108,34 @@ body {
   height: 100%;
 }
 
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #669999;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 700;
+    border: solid 1px rgb(88, 80, 80);
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 205, 194);
+    color: rgb(88, 80, 80);
+    font-size: 1.6em;
+    font-weight: 500;
+    border: solid 1px rgb(88, 80, 80);
+    text-align: center;
+
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 500;
   display:flex;
   justify-content:space-between;
 }
@@ -118,8 +143,8 @@ body {
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  border-style: dotted;
-  border-width: 10px;
+  border-style: solid;
+  border-width: 1px;
   border-color: rgb(88, 80, 80);
   line-height: 1.5em;
   font-size: 1.6em;
@@ -132,6 +157,17 @@ body {
   text-align: center;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #669999;
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 500;
+    border: solid 1px rgb(88, 80, 80);
+}
 
 
 
